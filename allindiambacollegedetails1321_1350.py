@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/chadalawada-ramanamma-engineering-college-tirupati-31061",
   "https://www.shiksha.com/college/aiet-appa-institute-of-engineering-and-technology-gulbarga-42853",
   "https://www.shiksha.com/college/vaishnavi-institutes-of-technology-and-science-bhopal-60251",
-  "https://www.shiksha.com/college/gourishankar-institute-of-management-sciences-satara-64343",
-  "https://www.shiksha.com/college/sri-gaayathri-college-of-management-sciences-warangal-68689",
-  "https://www.shiksha.com/university/jagannath-university-jaipur-40379",
-  "https://www.shiksha.com/college/new-delhi-institution-of-event-management-netaji-subhash-place-64161",
-  "https://www.shiksha.com/college/hp-institute-of-management-studies-hpims-shimla-2854",
-  "https://www.shiksha.com/college/siddharth-institute-of-engineering-and-technology-sietk-andhra-pradesh-other-21190",
-  "https://www.shiksha.com/college/jain-college-jayanagar-jayanagar-bangalore-48063",
+  # "https://www.shiksha.com/college/gourishankar-institute-of-management-sciences-satara-64343",
+  # "https://www.shiksha.com/college/sri-gaayathri-college-of-management-sciences-warangal-68689",
+  # "https://www.shiksha.com/university/jagannath-university-jaipur-40379",
+  # "https://www.shiksha.com/college/new-delhi-institution-of-event-management-netaji-subhash-place-64161",
+  # "https://www.shiksha.com/college/hp-institute-of-management-studies-hpims-shimla-2854",
+  # "https://www.shiksha.com/college/siddharth-institute-of-engineering-and-technology-sietk-andhra-pradesh-other-21190",
+  # "https://www.shiksha.com/college/jain-college-jayanagar-jayanagar-bangalore-48063",
 ]
 
 
