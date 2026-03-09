@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dr-s-c-gulhane-prerna-college-of-management-and-technology-nagpur-228507",
-  "https://www.shiksha.com/college/national-institute-of-management-studies-bangalore-kengeri-2945",
-  "https://www.shiksha.com/college/institute-of-tourism-studies-uttar-pradesh-its-lucknow-20316",
-  "https://www.shiksha.com/university/capital-university-jharkhand-other-63315",
-  "https://www.shiksha.com/college/post-graduate-college-siddipet-medak-139513",
-  "https://www.shiksha.com/college/step-harcourt-butler-technological-institute-kanpur-37369",
-  "https://www.shiksha.com/college/vidya-college-of-engineering-meerut-42879",
-  "https://www.shiksha.com/college/j-m-patel-arts-commerce-and-science-college-bhandara-72385",
-  "https://www.shiksha.com/college/chameli-devi-institute-of-professional-studies-indore-157101",
-  "https://www.shiksha.com/college/bandhan-school-of-business-birbhum-242334",
-  "https://www.shiksha.com/college/sri-krishnadevaraya-institute-of-management-skim-college-anantapur-42996",
-  "https://www.shiksha.com/college/netaji-subhash-engineering-college-garia-kolkata-38152",
-  "https://www.shiksha.com/college/sri-sathya-sai-institute-of-higher-learning-kadugodi-whitefield-bangalore-64717",
-  "https://www.shiksha.com/college/shriram-institute-of-information-technology-shriram-group-of-colleges-gwalior-145699",
-  "https://www.shiksha.com/college/airway-india-barasat-kolkata-228711",
-  "https://www.shiksha.com/university/shree-om-university-roorkee-30564",
-  "https://www.shiksha.com/college/nilai-institute-of-management-jharkhand-other-43314",
-  "https://www.shiksha.com/college/arunachala-college-of-engineering-for-women-tamil-nadu-other-48090",
-  "https://www.shiksha.com/college/dr-ram-manohar-lohia-institute-drmli-modinagar-49448",
-  "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-and-technology-thiruvarur-65529",
-  "https://www.shiksha.com/college/chadalawada-ramanamma-engineering-college-tirupati-31061",
-  "https://www.shiksha.com/college/aiet-appa-institute-of-engineering-and-technology-gulbarga-42853",
-  "https://www.shiksha.com/college/vaishnavi-institutes-of-technology-and-science-bhopal-60251",
-  # "https://www.shiksha.com/college/gourishankar-institute-of-management-sciences-satara-64343",
-  # "https://www.shiksha.com/college/sri-gaayathri-college-of-management-sciences-warangal-68689",
-  # "https://www.shiksha.com/university/jagannath-university-jaipur-40379",
-  # "https://www.shiksha.com/college/new-delhi-institution-of-event-management-netaji-subhash-place-64161",
-  # "https://www.shiksha.com/college/hp-institute-of-management-studies-hpims-shimla-2854",
-  # "https://www.shiksha.com/college/siddharth-institute-of-engineering-and-technology-sietk-andhra-pradesh-other-21190",
-  # "https://www.shiksha.com/college/jain-college-jayanagar-jayanagar-bangalore-48063",
+  # "https://www.shiksha.com/college/dr-s-c-gulhane-prerna-college-of-management-and-technology-nagpur-228507",
+  # "https://www.shiksha.com/college/national-institute-of-management-studies-bangalore-kengeri-2945",
+  # "https://www.shiksha.com/college/institute-of-tourism-studies-uttar-pradesh-its-lucknow-20316",
+  # "https://www.shiksha.com/university/capital-university-jharkhand-other-63315",
+  # "https://www.shiksha.com/college/post-graduate-college-siddipet-medak-139513",
+  # "https://www.shiksha.com/college/step-harcourt-butler-technological-institute-kanpur-37369",
+  # "https://www.shiksha.com/college/vidya-college-of-engineering-meerut-42879",
+  # "https://www.shiksha.com/college/j-m-patel-arts-commerce-and-science-college-bhandara-72385",
+  # "https://www.shiksha.com/college/chameli-devi-institute-of-professional-studies-indore-157101",
+  # "https://www.shiksha.com/college/bandhan-school-of-business-birbhum-242334",
+  # "https://www.shiksha.com/college/sri-krishnadevaraya-institute-of-management-skim-college-anantapur-42996",
+  # "https://www.shiksha.com/college/netaji-subhash-engineering-college-garia-kolkata-38152",
+  # "https://www.shiksha.com/college/sri-sathya-sai-institute-of-higher-learning-kadugodi-whitefield-bangalore-64717",
+  # "https://www.shiksha.com/college/shriram-institute-of-information-technology-shriram-group-of-colleges-gwalior-145699",
+  # "https://www.shiksha.com/college/airway-india-barasat-kolkata-228711",
+  # "https://www.shiksha.com/university/shree-om-university-roorkee-30564",
+  # "https://www.shiksha.com/college/nilai-institute-of-management-jharkhand-other-43314",
+  # "https://www.shiksha.com/college/arunachala-college-of-engineering-for-women-tamil-nadu-other-48090",
+  # "https://www.shiksha.com/college/dr-ram-manohar-lohia-institute-drmli-modinagar-49448",
+  # "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-and-technology-thiruvarur-65529",
+  # "https://www.shiksha.com/college/chadalawada-ramanamma-engineering-college-tirupati-31061",
+  # "https://www.shiksha.com/college/aiet-appa-institute-of-engineering-and-technology-gulbarga-42853",
+  # "https://www.shiksha.com/college/vaishnavi-institutes-of-technology-and-science-bhopal-60251",
+  "https://www.shiksha.com/college/gourishankar-institute-of-management-sciences-satara-64343",
+  "https://www.shiksha.com/college/sri-gaayathri-college-of-management-sciences-warangal-68689",
+  "https://www.shiksha.com/university/jagannath-university-jaipur-40379",
+  "https://www.shiksha.com/college/new-delhi-institution-of-event-management-netaji-subhash-place-64161",
+  "https://www.shiksha.com/college/hp-institute-of-management-studies-hpims-shimla-2854",
+  "https://www.shiksha.com/college/siddharth-institute-of-engineering-and-technology-sietk-andhra-pradesh-other-21190",
+  "https://www.shiksha.com/college/jain-college-jayanagar-jayanagar-bangalore-48063",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1321
+    c_count =1344
 
     try:
         for base_url in BASE_URL:
